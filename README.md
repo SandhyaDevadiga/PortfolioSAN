@@ -1,7 +1,7 @@
 # GitHub Portfolio
 
 
-## View live preview [here](ghportfolio2003.netlify.app)
+## View live preview [here](https://ghportfolio2003.netlify.app/)
 
 # Packages Used :package:
 
