@@ -65,14 +65,14 @@ function HeroSection({ profile }) {
             </Link>
           </div>
 
-          <div className="w-full justify-center flex items-center gap-3 mt-6">
+          {/* <div className="w-full justify-center flex items-center gap-3 mt-6">
             <Link target="_blank" href={userData.resume} className="bg-gradient-to-r to-pink-500 from-violet-600 p-[1px] rounded-full transition-all duration-300 hover:from-pink-500 hover:to-violet-600">
               <button className="px-3 text-xs md:px-4 py-2 md:py-2.5 bg-[#0d1224] rounded-full border-none text-center font-medium uppercase tracking-wider text-[#ffff] no-underline transition-all duration-200 ease-out  md:font-semibold flex items-center gap-1 hover:gap-3">
                 <span>Get Resume</span>
                 <MdDownload size={16} />
               </button>
             </Link>
-          </div>
+          </div> */}
 
         </div>
 
@@ -99,31 +99,31 @@ function HeroSection({ profile }) {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-green-400">{profile.name}</span>
+                <span className="text-green-400">Sandhya</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
-              <div>
+              {/* <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">company:</span>
                 <span className="text-gray-400">{`'`}</span>
                 <span className="text-green-400">{profile.company}</span>
                 <span className="text-gray-400">{`',`}</span>
-              </div>
+              </div> */}
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">location:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-green-400">{profile.location}</span>
+                <span className="text-green-400">Bangalore</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
-              <div>
+              {/* <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">followers:</span>
                 <span className="text-orange-400">{profile.followers}</span>
                 <span className="text-gray-400">,</span>
-              </div>
-              <div>
+              </div> */}
+              {/* <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">following:</span>
                 <span className="text-orange-400">{profile.following}</span>
                 <span className="text-gray-400">,</span>
-              </div>
+              </div> */}
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">repositories:</span>
                 <span className="text-orange-400">{profile.public_repos}</span>
@@ -145,11 +145,11 @@ function HeroSection({ profile }) {
                 }
                 <span className="text-gray-400">{"'],"}</span>
               </div>
-              <div>
+              {/* <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">hireable:</span>
-                <span className="text-orange-400">{profile?.hireable.toString()}</span>
+                <span className="text-orange-400">{profile?.hireable}</span>
                 <span className="text-gray-400">,</span>
-              </div>
+              </div> */}
               <div><span className="text-gray-400">{`};`}</span></div>
             </code>
           </div>

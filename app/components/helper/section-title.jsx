@@ -1,6 +1,5 @@
 // @flow strict
 
-
 function SectionTitle({ title }) {
   return (
     <div className="flex justify-center -mt-6">
