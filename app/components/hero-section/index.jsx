@@ -99,7 +99,7 @@ function HeroSection({ profile }) {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-green-400">Sandhya</span>
+                <span className="text-green-400">Sankalp</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               {/* <div>
